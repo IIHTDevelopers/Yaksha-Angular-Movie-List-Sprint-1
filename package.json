@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "jest": "jest --unhandled-rejections=strict"
+    "jest": "jest --unhandled-rejections=strict",
+	  "json-server": "json-server --watch src/assets/movie-db.json --port 6565"
   },
   "private": true,
   "dependencies": {
